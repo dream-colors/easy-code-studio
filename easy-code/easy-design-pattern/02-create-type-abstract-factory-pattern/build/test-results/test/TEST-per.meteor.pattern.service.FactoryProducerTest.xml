@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="per.meteor.pattern.service.FactoryProducerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-14T06:03:31" hostname="METEOR" time="0.041">
+  <properties/>
+  <testcase name="[1] SHAPE" classname="per.meteor.pattern.service.FactoryProducerTest" time="0.034"/>
+  <testcase name="[2] COLOR" classname="per.meteor.pattern.service.FactoryProducerTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[三月 14, 2022 2:03:31 下午 per.meteor.pattern.service.FactoryProducer getFactory
+信息: facetoryname: SHAPE
+三月 14, 2022 2:03:31 下午 per.meteor.pattern.service.impl.Circle draw
+信息: Inside Circle::draw() method
+三月 14, 2022 2:03:31 下午 per.meteor.pattern.service.impl.Rectangle draw
+信息: Inside Rectangle::draw() methord
+三月 14, 2022 2:03:31 下午 per.meteor.pattern.service.impl.Square draw
+信息: Inside Square::draw() method
+三月 14, 2022 2:03:31 下午 per.meteor.pattern.service.FactoryProducer getFactory
+信息: facetoryname: COLOR
+三月 14, 2022 2:03:31 下午 per.meteor.pattern.service.impl.Red fill
+信息: Inside Read::fill() method
+三月 14, 2022 2:03:31 下午 per.meteor.pattern.service.impl.Green fill
+信息: Inside Green::fill() method
+三月 14, 2022 2:03:31 下午 per.meteor.pattern.service.impl.Blue fill
+信息: Inside Blue::fill() method
+]]></system-err>
+</testsuite>

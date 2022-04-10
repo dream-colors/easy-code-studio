@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="per.meteor.pattern.ProxyPatternTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-16T14:43:17" hostname="METEOR" time="0.019">
+  <properties/>
+  <testcase name="proxyPatternTest()" classname="per.meteor.pattern.ProxyPatternTest" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[三月 16, 2022 10:43:17 下午 per.meteor.pattern.ProxySubject beforeOperation
+信息: do proxy subject before method
+三月 16, 2022 10:43:17 下午 per.meteor.pattern.ConcreteSubject operation
+信息: do concrete subject method
+三月 16, 2022 10:43:17 下午 per.meteor.pattern.ProxySubject postOperation
+信息: do proxy subject post method
+]]></system-err>
+</testsuite>

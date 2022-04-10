@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="per.meteor.pattern.FacadePatternTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-16T12:14:51" hostname="METEOR" time="0.023">
+  <properties/>
+  <testcase name="facadePatternTest()" classname="per.meteor.pattern.FacadePatternTest" time="0.023"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[三月 16, 2022 8:14:51 下午 per.meteor.pattern.FacadeMemberA method
+信息: do facade member a method
+三月 16, 2022 8:14:51 下午 per.meteor.pattern.FacadeMemberB method
+信息: do facade member b method
+]]></system-err>
+</testsuite>

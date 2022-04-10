@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="per.meteor.pattern.FlyweightPatternTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-16T14:26:04" hostname="METEOR" time="0.025">
+  <properties/>
+  <testcase name="flyweightPatternTest()" classname="per.meteor.pattern.FlyweightPatternTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[三月 16, 2022 10:26:04 下午 per.meteor.pattern.ConcreteFlyweightA operation
+信息: SharedState{name='tom', age=12}
+三月 16, 2022 10:26:04 下午 per.meteor.pattern.ConcreteFlyweightA operation
+信息: concrete flyweight a do method
+三月 16, 2022 10:26:04 下午 per.meteor.pattern.ConcreteFlyweightA operation
+信息: SharedState{name='tom', age=12}
+三月 16, 2022 10:26:04 下午 per.meteor.pattern.ConcreteFlyweightA operation
+信息: concrete flyweight a do method
+三月 16, 2022 10:26:04 下午 per.meteor.pattern.ConcreteFlyweightA operation
+信息: SharedState{name='ailen', age=13}
+三月 16, 2022 10:26:04 下午 per.meteor.pattern.ConcreteFlyweightA operation
+信息: concrete flyweight a do method
+]]></system-err>
+</testsuite>

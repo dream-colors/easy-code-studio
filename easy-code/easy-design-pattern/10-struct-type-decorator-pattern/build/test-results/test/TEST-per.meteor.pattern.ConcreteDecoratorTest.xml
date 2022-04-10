@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="per.meteor.pattern.ConcreteDecoratorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-16T11:19:50" hostname="METEOR" time="0.017">
+  <properties/>
+  <testcase name="decoratorPatternTest()" classname="per.meteor.pattern.ConcreteDecoratorTest" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[三月 16, 2022 7:19:50 下午 per.meteor.pattern.ConcreteComponent operation
+信息: concrete component operation
+三月 16, 2022 7:19:50 下午 per.meteor.pattern.ConcreteDecorator doDecorate
+信息: concrete decorator do decorate
+三月 16, 2022 7:19:50 下午 per.meteor.pattern.ConcreteComponent operation
+信息: concrete component operation
+]]></system-err>
+</testsuite>

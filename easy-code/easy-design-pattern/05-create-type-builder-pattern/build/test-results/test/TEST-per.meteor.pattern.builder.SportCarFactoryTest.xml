@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="per.meteor.pattern.builder.SportCarFactoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-15T05:52:26" hostname="METEOR" time="0.017">
+  <properties/>
+  <testcase name="buildSportsCar()" classname="per.meteor.pattern.builder.SportCarFactoryTest" time="0.017"/>
+  <system-out><![CDATA[Car{name='sport', color='red', seat=2, price=23.0}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

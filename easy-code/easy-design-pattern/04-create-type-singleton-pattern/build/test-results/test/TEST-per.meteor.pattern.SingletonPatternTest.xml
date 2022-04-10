@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="per.meteor.pattern.SingletonPatternTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-17T06:41:47" hostname="METEOR" time="0.019">
+  <properties/>
+  <testcase name="singletonTest()" classname="per.meteor.pattern.SingletonPatternTest" time="0.019"/>
+  <system-out><![CDATA[per.meteor.pattern.ThreadLocalSingleton@17e133f8
+per.meteor.pattern.ThreadLocalSingleton@19abcd6e
+]]></system-out>
+  <system-err><![CDATA[Exception in thread "Thread-4" org.opentest4j.AssertionFailedError: expected: <per.meteor.pattern.ThreadLocalSingleton@17e133f8> but was: <per.meteor.pattern.ThreadLocalSingleton@19abcd6e>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertSame.failNotSame(AssertSame.java:48)
+	at org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:37)
+	at org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:32)
+	at org.junit.jupiter.api.Assertions.assertSame(Assertions.java:2834)
+	at per.meteor.pattern.SingletonPatternTest.lambda$singletonTest$0(SingletonPatternTest.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+</testsuite>

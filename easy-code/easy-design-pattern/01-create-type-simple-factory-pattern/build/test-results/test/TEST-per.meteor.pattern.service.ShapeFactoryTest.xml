@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="per.meteor.pattern.service.ShapeFactoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-03-14T08:30:54" hostname="METEOR" time="0.04">
+  <properties/>
+  <testcase name="[1] CIRCLE" classname="per.meteor.pattern.service.ShapeFactoryTest" time="0.033"/>
+  <testcase name="[2] RECTANGLE" classname="per.meteor.pattern.service.ShapeFactoryTest" time="0.002"/>
+  <testcase name="[3] SQUARE" classname="per.meteor.pattern.service.ShapeFactoryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[三月 14, 2022 4:30:54 下午 per.meteor.pattern.service.impl.Circle draw
+信息: Inside Circle::draw() method
+三月 14, 2022 4:30:54 下午 per.meteor.pattern.service.impl.Rectangle draw
+信息: Inside Rectangle::draw() methord
+三月 14, 2022 4:30:54 下午 per.meteor.pattern.service.impl.Square draw
+信息: Inside Square::draw() method
+]]></system-err>
+</testsuite>
