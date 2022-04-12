@@ -56,15 +56,15 @@ public class ResponseBody<T> {
     }
 
     public static <T> ResponseBody<T> error(T data) {
-        return new ResponseBody<>(CODE_SUCCESS, SUCCESS_TIP, data);
+        return new ResponseBody<>(CODE_ERROR, ERROR_TIP, data);
     }
 
     public static <T> ResponseBody<T> error(Integer code, T data) {
-        return new ResponseBody<>(code, SUCCESS_TIP, data);
+        return new ResponseBody<>(code, ERROR_TIP, data);
     }
 
     public static <T> ResponseBody<T> error(String message, T data) {
-        return new ResponseBody<>(CODE_SUCCESS, message, data);
+        return new ResponseBody<>(CODE_ERROR, message, data);
     }
 
     public static <T> ResponseBody<T> error(Integer code, String message, T data) {

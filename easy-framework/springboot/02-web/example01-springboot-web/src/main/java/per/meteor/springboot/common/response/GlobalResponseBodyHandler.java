@@ -9,8 +9,10 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 import per.meteor.springboot.controller.ParamParseDemoController;
 
 /**
- * 重写接口返回值类型
+ * 统一接口返回值类型
  * 1、需指定重写的接口、可采用类名的形式、包形式
+ * <p></p>
+ * 扩展：也可以统一请求值，创建拦截器并实现RequestBodyAdvice，并添加RestControllerAdvice注解使其生效
  * @author meteor
  * @date 2022-03-22 14:32
  */

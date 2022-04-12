@@ -22,10 +22,9 @@ public class CustomInterceptor implements HandlerInterceptor {
      * @param response /
      * @param handler /
      * @return /
-     * @throws Exception /
      */
     @Override
-    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
         log.info("[preHandler][handler({})]", handler);
         return true;
     }
@@ -36,10 +35,9 @@ public class CustomInterceptor implements HandlerInterceptor {
      * @param response /
      * @param handler /
      * @param modelAndView /
-     * @throws Exception /
      */
     @Override
-    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
+    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) {
         log.info("[postHandle][handler({})]", handler);
     }
 
@@ -52,10 +50,9 @@ public class CustomInterceptor implements HandlerInterceptor {
      * @param response /
      * @param handler /
      * @param ex /
-     * @throws Exception /
      */
     @Override
-    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
+    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) {
         log.info("[afterCompletion][handler({})]", handler);
     }
 }
