@@ -1,0 +1,19 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    username:
+    password: 12345678
+    database: 0
+    timeout: 0
+    # jedis配置，对应RedisProperties.Jedis配置类
+    jedis:
+      pool:
+        # 最大连接数
+        max-active: 8
+        # 最大空闲连接数
+        max-idle: 8
+        # 最小空闲连接数
+        min-idle: 0
+        # 最大阻塞等待时间
+        max-wait: -1

@@ -1,0 +1,41 @@
+plugins {
+    id 'org.springframework.boot' version '2.6.6'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+group = 'per.meteor'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation('org.springframework.boot:spring-boot-starter-data-redis') {
+        // 排除lettuce依赖，引入jedis
+        exclude group: 'io.lettuce', module: 'lettuce-core'
+    }
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // 引入jedis
+    implementation 'redis.clients:jedis'
+    // 引入fastjson作为序列化工具
+    implementation 'com.alibaba:fastjson:1.2.61'
+    // spring data redis默认使用Jackson作为json序列化工具
+    implementation 'com.fasterxml.jackson.core:jackson-databind'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
