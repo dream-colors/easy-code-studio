@@ -31,6 +31,7 @@ public enum ServiceExceptionEnum {
     SUCCESS(0, "成功"),
     SYS_ERROR(2001001000, "服务端发生异常"),
     MISSING_REQUEST_PARAM_ERROR(2001001001, "参数缺失"),
+    ACCESS_LIMIT_ERROR(2001001002, "系统繁忙，请稍后再试"),
 
     // 用户模块
     USER_NOT_FOUND(1001002000, "用户不存在"),

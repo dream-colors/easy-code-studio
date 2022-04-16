@@ -2,6 +2,7 @@ package per.meteor.springboot.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import per.meteor.springboot.common.interceptor.accesslimit.AccessLimit;
 import per.meteor.springboot.entity.User;
 import per.meteor.springboot.service.UserService;
 
@@ -20,6 +21,7 @@ public class UserController {
         this.userService = userService;
     }
 
+    @AccessLimit(value = 2, interval = 2)
     @GetMapping("/{userId}")
     public ResponseEntity<Object> get(@PathVariable Integer userId) {
         return ResponseEntity.ok(userService.get(userId));

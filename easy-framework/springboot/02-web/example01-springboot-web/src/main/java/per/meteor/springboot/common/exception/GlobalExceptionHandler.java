@@ -32,7 +32,7 @@ public class GlobalExceptionHandler {
     /**
      * 处理业务异常
      */
-    @ExceptionHandler(ServiceException.class)
+    @ExceptionHandler(MissingServletRequestParameterException.class)
     public ResponseBody<Object> missingServletRequestParameterExceptionHandler(MissingServletRequestParameterException exception) {
         log.error("【missingServletRequestParameterExceptionHandler】", exception);
         return ResponseBody.error(ServiceExceptionEnum.MISSING_REQUEST_PARAM_ERROR.getCode(), ServiceExceptionEnum.MISSING_REQUEST_PARAM_ERROR.getMessage());
